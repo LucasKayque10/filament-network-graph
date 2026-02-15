@@ -12,6 +12,20 @@ abstract class NetworkPage extends Page implements HasNetworkGraph
 
     protected static string $view =  'filament-network-graph::network-page';
 
+    protected array $nodes = [];
+    protected array $edges = [];
+
+
+    public function getNodes(): array
+    {
+        return $this->nodes;
+    }
+
+    public function getEdges(): array
+    {
+        return $this->edges;
+    }
+
     /*
     |--------------------------------------------------------------------------
     | Hooks opcionais
