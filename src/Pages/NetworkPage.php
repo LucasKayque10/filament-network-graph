@@ -3,14 +3,14 @@
 namespace LucasBarros\FilamentNetwork\Pages;
 
 use Filament\Pages\Page;
-use LucasBarros\FilamentNetwork\Support\GraphData;
+use LucasBarros\Network\Support\GraphData;
 use LucasBarros\FilamentNetwork\Support\NetworkBuilder;
-use LucasBarros\FilamentNetwork\Contracts\HasNetworkGraph;
+use LucasBarros\Network\Contracts\HasNetworkGraph;
 
 abstract class NetworkPage extends Page implements HasNetworkGraph
 {
 
-    protected string $view =  'filament-network::network-page';
+    protected string $view =  'filament-network-graph::network-page';
 
     /*
     |--------------------------------------------------------------------------

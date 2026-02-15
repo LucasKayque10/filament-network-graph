@@ -10,8 +10,6 @@ class NetworkServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'filament-network');
-
-        Livewire::component('network-graph', NetworkGraph::class);
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'filament-network-graph');
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "lucas-barros/filament-network-graph",
-    "description": "graficos de rede com vis js no filament",
+    "description": "Gráficos de rede com vis js no filament",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -15,17 +15,22 @@
         }
     ],
     "require": {
-        "php": "^8.2"
-    },
-    "suggest": {
+        "php": "^8.2",
+        "lucas-barros/network-graph": "dev-main",
         "livewire/livewire": "^3.0",
-        "filament/filament": "^4.0"
+        "filament/filament": "^3.0|^4.0"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../network-graph"
+        }
+    ],
     "extra": {
         "laravel": {
-        "providers": [
-            "LucasBarros\\FilamentNetwork\\NetworkServiceProvider"
-        ]
+            "providers": [
+                "LucasBarros\\FilamentNetwork\\NetworkServiceProvider"
+            ]
         }
     }
 }

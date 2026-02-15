@@ -3,10 +3,11 @@
     @php
         $graph = $this->getGraphData()->toArray();
     @endphp
-
-    <livewire:network-graph
-        :graph="$graph"
-        :key="$this->getNetworkComponentKey()"
-    />
+    <x-filament::section>
+        <livewire:network-graph
+            :graph="$graph"
+            :key="$this->getNetworkComponentKey()"
+        />
+    </x-filament::section>
 
 </x-filament-panels::page>
