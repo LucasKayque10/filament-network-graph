@@ -2,7 +2,7 @@
 
 namespace LucasBarros\FilamentNetwork\Pages;
 
-use Filament\Pages\Page;
+use Filament\Resources\Pages\Page;
 use LucasBarros\Network\Support\GraphData;
 use LucasBarros\FilamentNetwork\Support\NetworkBuilder;
 use LucasBarros\Network\Contracts\HasNetworkGraph;
