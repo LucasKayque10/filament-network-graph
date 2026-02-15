@@ -10,7 +10,7 @@ use LucasBarros\Network\Contracts\HasNetworkGraph;
 abstract class NetworkPage extends Page implements HasNetworkGraph
 {
 
-    protected string $view =  'filament-network-graph::network-page';
+    protected static string $view =  'filament-network-graph::network-page';
 
     /*
     |--------------------------------------------------------------------------
