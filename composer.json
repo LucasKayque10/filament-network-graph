@@ -16,21 +16,17 @@
     ],
     "require": {
         "php": "^8.2",
-        "lucas-barros/network-graph": "dev-main",
+        "lucas-barros/network-graph": "1.0",
         "livewire/livewire": "^3.0",
-        "filament/filament": "^3.0|^4.0"
+        "filament/filament": "^4.0"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../network-graph"
-        }
-    ],
     "extra": {
         "laravel": {
             "providers": [
                 "LucasBarros\\FilamentNetwork\\NetworkServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
