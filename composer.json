@@ -18,7 +18,7 @@
         "php": "^8.2",
         "lucas-barros/network-graph": "1.0",
         "livewire/livewire": "^3.0",
-        "filament/filament": "^4.0"
+        "filament/filament": "^3.0"
     },
     "extra": {
         "laravel": {
