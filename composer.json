@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^8.2",
-        "lucas-barros/network-graph": "1.0",
+        "lucas-barros/network-graph": "^1.1",
         "livewire/livewire": "^3.0",
         "filament/filament": "^3.0"
     },
@@ -26,7 +26,5 @@
                 "LucasBarros\\FilamentNetwork\\NetworkServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }

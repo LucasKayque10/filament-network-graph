@@ -4,7 +4,7 @@
         $graph = $this->getGraphData()->toArray();
     @endphp
     <x-filament::section>
-        <livewire:network-graph
+        <livewire:filament-network-graph
             :graph="$graph"
             :key="$this->getNetworkComponentKey()"
         />
